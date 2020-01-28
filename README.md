@@ -1,2 +1,9 @@
-# spawa-pweb
-UNR Capstone Team 9 - Project Website for SPAWA (StartUpNV Pitch Application Web App)
+# StartUpNV Pitch Application Web App (SPAWA)
+## Project Website
+### UNR Capstone Team #9
+#### Members
+- Adam Landis
+- Chris Mollise
+- Cody Ryan
+
+...
