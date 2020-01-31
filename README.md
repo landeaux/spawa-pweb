@@ -1,15 +1,19 @@
 # StartUpNV Pitch Application Web App (SPAWA)<br>Project Website
 ## CS 426 Senior Project, Spring 2020, UNR, CSE Department<br>UNR Capstone Team #9
+
 ### Members
 - Adam Landis
 - Chris Mollise
 - Cody Ryan
+
 ### Instructors and External Advisors
 - Jeff Saling
 - Devrin Lee
 - Sergiu Dascalu
+
 ### Project Description
 The goal of this project is to create a web application to automate StartUpNV’s pre-pitch processes. It will provide a single dashboard for the Founders, Reviewers, Evaluators and Administrators (StartUpNV’s staff) that streamlines the fully manual process currently being used by StartUpNV, saving countless hours for the StartUpNV’s staff and providing continual communication to all users. This application aims to allow StartUpNV’s scaling to continue and to allow small businesses wishing to grow in the state of Nevada the ability to do so. The objective of this prototype document is to demonstrate the basic plan of the UI for the Founder role, as well as demonstrate a functioning site which allows individuals to sign up, login, and update their account.
+
 ### Project Related Resources
 #### Problem Domain Book
 Full-Stack Web Development with Vue.js and Node
