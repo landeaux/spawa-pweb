@@ -18,6 +18,9 @@ a:hover {
     color: #1e73be;
     text-decoration: none;
 }
+#content > p:nth-child(1) {
+  text-align: center;
+}
 
 #content > p:nth-child(1) a {
   font-family: Lato, sans-serif;
