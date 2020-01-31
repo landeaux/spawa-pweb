@@ -8,3 +8,14 @@
   background-color: #1e73be;
   background-image: linear-gradient(120deg, #003399, #1e73be);
 }
+
+a {
+    color: #003399;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1e73be;
+    text-decoration: none;
+}
