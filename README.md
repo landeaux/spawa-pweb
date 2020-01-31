@@ -1,21 +1,23 @@
 # StartUpNV Pitch Application Web App (SPAWA)<br>Project Website
 ## CS 426 Senior Project, Spring 2020, UNR, CSE Department<br>UNR Capstone Team #9
 
-### Members
+[Members](#members) | [Advisors](#advisors) | [Problem Domain Book](#problem-domain-book) | [Reference Articles](#reference-articles) | [Project Related Websites](#project-related-websites)
+
+### Members<a name="members"></a>
 - Adam Landis
 - Chris Mollise
 - Cody Ryan
 
-### Instructors and External Advisors
+### Instructors and External Advisors<a name="advisors"></a>
 - Jeff Saling
 - Devrin Lee
 - Sergiu Dascalu
 
-### Project Description
+### Project Description<a name="description"></a>
 The goal of this project is to create a web application to automate StartUpNV’s pre-pitch processes. It will provide a single dashboard for the Founders, Reviewers, Evaluators and Administrators (StartUpNV’s staff) that streamlines the fully manual process currently being used by StartUpNV, saving countless hours for the StartUpNV’s staff and providing continual communication to all users. This application aims to allow StartUpNV’s scaling to continue and to allow small businesses wishing to grow in the state of Nevada the ability to do so. The objective of this prototype document is to demonstrate the basic plan of the UI for the Founder role, as well as demonstrate a functioning site which allows individuals to sign up, login, and update their account.
 
 ### Project Related Resources
-#### Problem Domain Book
+#### Problem Domain Book<a name="problem-domain-book"></a>
 Full-Stack Web Development with Vue.js and Node
 Aneeta Sharma: A software developer from Nepal, she’s made a career as a Web Designer, PHP Developer and now a Ruby on Rails engineer. This book dives into her expertise working on both frontend and backend aspects of a web application development. It goes over working with a MEVN development stack consisting of the use of MongoDB, Express.js, Vue.js, and Node.js.
  
@@ -25,7 +27,7 @@ Successful entrepreneurs Evan Loomis and Evan Baehr describe the process of prep
 MongoDB: The Definitive Guide: Powerful and Scalable Data Storage
 Kristina Chodorow, a core contributor to MongoDB, describes the process of using MongoDB to manage user data and create scalability. This book covers the core concepts of MongoDB as well as the process of creating an app with MongoDB integration. This book will be a helpful resource in understanding and implementing the storage of user data.
 
-#### Reference Articles
+#### Reference Articles<a name="reference-articles"></a>
 Charles Y.Murnieks, “Drawn to the fire: The role of passion, tenacity and inspirational leadership in angel investing”
 https://www.sciencedirect.com/science/article/pii/S0883902616300180
  
@@ -41,7 +43,7 @@ https://web.b.ebscohost.com/ehost/detail/detail?vid=0&sid=300d1715-91a3-400d-b43
  
 This article describes two cloud computing platforms through Microsoft Azure and Amazon Web Services. This article is helpful in describing the benefits of Amazon Web Services and how we can use the platform effectively for our project. 
 
-#### Project Related Websites
+#### Project Related Websites<a name="project-related-websites"></a>
 Matt Maribojoc, “Creating a ToDo App with a MEVN Full Stack” Part1 and Part 2
 https://medium.com/@mattmaribojoc/creating-a-todo-app-with-a-mevn-full-stack-part-1-da0f4df7e15
 https://medium.com/@mattmaribojoc/creating-a-todo-app-with-a-mevn-full-stack-part-2-8180d944233a
