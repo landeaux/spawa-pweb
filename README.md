@@ -1,7 +1,7 @@
 # StartUpNV Pitch Application Web App (SPAWA)<br>Project Website
 ## CS 426 Senior Project, Spring 2020, UNR, CSE Department<br>UNR Capstone Team #9
 
-[Members](#members) | [Advisors](#advisors) | [Problem Domain Book](#problem-domain-book) | [Reference Articles](#reference-articles) | [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Advisors](#advisors) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
