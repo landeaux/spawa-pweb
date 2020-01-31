@@ -10,16 +10,20 @@
 }
 
 a {
-    color: #003399;
-    font-family: Lato, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    text-decoration: none;
+  color: #003399;
+  text-decoration: none;
 }
 
 a:hover {
     color: #1e73be;
     text-decoration: none;
+}
+
+#content > p:nth-child(1) a {
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 h1, h2, h3, h4, h5, h6 {
