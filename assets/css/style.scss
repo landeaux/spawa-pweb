@@ -1,10 +1,46 @@
 ---
 ---
-@import "{{ site.theme }}"
+@import "{{ site.theme }}";
 
 .page-header {
   color: #fff;
   text-align: center;
   background-color: #1e73be;
   background-image: linear-gradient(120deg, #003399, #1e73be);
+}
+
+a {
+  color: #003399;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #1e73be;
+    text-decoration: none;
+}
+#content > p:nth-child(1) {
+  text-align: center;
+}
+
+#content > p:nth-child(1) a {
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: merriweather;
+  font-weight: bolder !important;
+}
+
+#content {
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(51, 51, 51);
+  }
+}
+
+p, li, span {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
 }
