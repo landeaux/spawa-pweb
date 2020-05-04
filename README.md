@@ -1,14 +1,18 @@
-[Members](#members) \| [Advisors](#advisors) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
 - Chris Mollise
 - Cody Ryan
 
-### Instructors and External Advisors<a name="advisors"></a>
-- Jeff Saling
+### Instructors<a name="instructors"></a>
 - Devrin Lee
-- Sergiu Dascalu
+- Dr. Sergiu Dascalu
+
+### External Advisors<a name="advisors"></a>
+- Jeff Saling (StartUpNV, Co-Founder, Executive Director)
+- Maggie Saling (StartUpNV, Director of Communications)
+- Martin Guttmann (StartUpNV, Product Manager)
 
 [![StartUpNV Pitch Application Web App -- Project Video](assets/img/spawa-yt-cover.png)](https://www.youtube.com/watch?v=cfIZ6ygl9U0 "StartUpNV Pitch Application Web App -- Project Video")
 
