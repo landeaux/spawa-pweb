@@ -10,6 +10,8 @@
 - Devrin Lee
 - Sergiu Dascalu
 
+[![StartUpNV Pitch Application Web App -- Project Video](assets/img/spawa-yt-cover.png)](https://www.youtube.com/watch?v=cfIZ6ygl9U0 "StartUpNV Pitch Application Web App -- Project Video")
+
 ### Project Description<a name="description"></a>
 The goal of this project is to create a web application to automate StartUpNV’s pre-pitch processes. It will provide a single dashboard for the Founders, Reviewers, Evaluators and Administrators (StartUpNV’s staff) that streamlines the fully manual process currently being used by StartUpNV, saving countless hours for the StartUpNV’s staff and providing continual communication to all users. This application aims to allow StartUpNV’s scaling to continue and to allow small businesses wishing to grow in the state of Nevada the ability to do so. The objective of this prototype document is to demonstrate the basic plan of the UI for the Founder role, as well as demonstrate a functioning site which allows individuals to sign up, login, and update their account.
 
