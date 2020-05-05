@@ -1,4 +1,4 @@
-[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
@@ -14,6 +14,7 @@
 - Maggie Saling (StartUpNV, Director of Communications)
 - Martin Guttmann (StartUpNV, Product Manager)
 
+### Project Video<a name="video"></a>
 [![StartUpNV Pitch Application Web App -- Project Video](assets/img/spawa-yt-cover.png)](https://www.youtube.com/watch?v=cfIZ6ygl9U0 "StartUpNV Pitch Application Web App -- Project Video")
 
 ### Project Description<a name="description"></a>
