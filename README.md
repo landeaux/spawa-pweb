@@ -1,4 +1,4 @@
-[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Architecture](#architecture) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Architecture](#architecture) \| [Project Poster](#poster) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
@@ -22,6 +22,7 @@ The goal of this project is to create a web application to automate StartUpNV’
 
 ### Architecture<a name="architecture"></a>
 ![Architecture](assets/img/architectural_design.png)
+
 The preceding image shows the high-level architectural design of the application. This application utilizes a popular web application stack known as the VENM stack, consisting of Vue.js, Express.js, Node.js and MongoDB.
 
 Vue.js, which follows the Model View ViewModel (MVVM) architecture, is employed as the front-end framework. Supporting Vue.js is Vuex, which the app uses for state management within the app. Express.js is used as the back-end framework, taking care of routing and serving of static assets. Supporting Express.js, the app also uses Passport.js and JWT (JSON Web Token) for user authentication. Node.js is the server-side javascript runtime that runs the application. Finally, MongoDB is used for the database, with Mongoose supporting as that database driver.
@@ -30,6 +31,8 @@ The application is split into two main parts: a client app and a server app. The
 
 Server requests coming from the client app are intercepted by the corresponding REST API endpoint and funneled through authentication and role-based access control middleware. Once through the preceding middleware, the request is handled by the corresponding controller, which makes the appropriate calls to the database via a database driver called Mongoose. If the request needs to push or pull data from HubSpot, the controller invokes a HubSpot client instance and sends the appropriate requests to the HubSpot API. Likewise, if any requests involve uploading or downloading media, then the makes the necessary requests to the AWS (Amazon Web Services) API for pushing or pulling media from the app’s S3 Bucket.
 
+### Project Poster<a name="poster"></a>
+![Project Poster](assets/poster.png)
 
 ### Project Related Resources
 #### Problem Domain Book<a name="problem-domain-book"></a>
