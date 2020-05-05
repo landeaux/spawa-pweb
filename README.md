@@ -22,6 +22,7 @@ The goal of this project is to create a web application to automate StartUpNV’
 
 ### Architecture<a name="architecture"></a>
 ![Architecture](assets/img/architectural_design.png)
+
 The preceding image shows the high-level architectural design of the application. This application utilizes a popular web application stack known as the VENM stack, consisting of Vue.js, Express.js, Node.js and MongoDB.
 
 Vue.js, which follows the Model View ViewModel (MVVM) architecture, is employed as the front-end framework. Supporting Vue.js is Vuex, which the app uses for state management within the app. Express.js is used as the back-end framework, taking care of routing and serving of static assets. Supporting Express.js, the app also uses Passport.js and JWT (JSON Web Token) for user authentication. Node.js is the server-side javascript runtime that runs the application. Finally, MongoDB is used for the database, with Mongoose supporting as that database driver.
