@@ -1,4 +1,4 @@
-[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Architecture](#architecture) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Architecture](#architecture) \| [Project Poster](#poster) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
@@ -31,6 +31,8 @@ The application is split into two main parts: a client app and a server app. The
 
 Server requests coming from the client app are intercepted by the corresponding REST API endpoint and funneled through authentication and role-based access control middleware. Once through the preceding middleware, the request is handled by the corresponding controller, which makes the appropriate calls to the database via a database driver called Mongoose. If the request needs to push or pull data from HubSpot, the controller invokes a HubSpot client instance and sends the appropriate requests to the HubSpot API. Likewise, if any requests involve uploading or downloading media, then the makes the necessary requests to the AWS (Amazon Web Services) API for pushing or pulling media from the app’s S3 Bucket.
 
+### Project Poster<a name="poster"></a>
+![Project Poster](assets/poster.png)
 
 ### Project Related Resources
 #### Problem Domain Book<a name="problem-domain-book"></a>
