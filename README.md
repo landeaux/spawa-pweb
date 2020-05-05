@@ -1,17 +1,38 @@
-[Members](#members) \| [Advisors](#advisors) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
+[Members](#members) \| [Instructors](#instructors) \| [Advisors](#advisors) \| [Project Video](#video) \| [Project Description](#description) \| [Architecture](#architecture) \| [Project Poster](#poster) \| [Problem Domain Book](#problem-domain-book) \| [Reference Articles](#reference-articles) \| [Project Related Websites](#project-related-websites)
 
 ### Members<a name="members"></a>
 - Adam Landis
 - Chris Mollise
 - Cody Ryan
 
-### Instructors and External Advisors<a name="advisors"></a>
-- Jeff Saling
+### Instructors<a name="instructors"></a>
 - Devrin Lee
-- Sergiu Dascalu
+- Dr. Sergiu Dascalu
+
+### External Advisors<a name="advisors"></a>
+- Jeff Saling (StartUpNV, Co-Founder, Executive Director)
+- Maggie Saling (StartUpNV, Director of Communications)
+- Martin Guttmann (StartUpNV, Product Manager)
+
+### Project Video<a name="video"></a>
+[![StartUpNV Pitch Application Web App -- Project Video](assets/img/spawa-yt-cover.png)](https://www.youtube.com/watch?v=cfIZ6ygl9U0 "StartUpNV Pitch Application Web App -- Project Video")
 
 ### Project Description<a name="description"></a>
 The goal of this project is to create a web application to automate StartUpNV’s pre-pitch processes. It will provide a single dashboard for the Founders, Reviewers, Evaluators and Administrators (StartUpNV’s staff) that streamlines the fully manual process currently being used by StartUpNV, saving countless hours for the StartUpNV’s staff and providing continual communication to all users. This application aims to allow StartUpNV’s scaling to continue and to allow small businesses wishing to grow in the state of Nevada the ability to do so. The objective of this prototype document is to demonstrate the basic plan of the UI for the Founder role, as well as demonstrate a functioning site which allows individuals to sign up, login, and update their account.
+
+### Architecture<a name="architecture"></a>
+![Architecture](assets/img/architectural_design.png)
+
+The preceding image shows the high-level architectural design of the application. This application utilizes a popular web application stack known as the VENM stack, consisting of Vue.js, Express.js, Node.js and MongoDB.
+
+Vue.js, which follows the Model View ViewModel (MVVM) architecture, is employed as the front-end framework. Supporting Vue.js is Vuex, which the app uses for state management within the app. Express.js is used as the back-end framework, taking care of routing and serving of static assets. Supporting Express.js, the app also uses Passport.js and JWT (JSON Web Token) for user authentication. Node.js is the server-side javascript runtime that runs the application. Finally, MongoDB is used for the database, with Mongoose supporting as that database driver.
+
+The application is split into two main parts: a client app and a server app. The client app, which contains the majority of the business logic, is downloaded to a user’s browser when they visit the site. Whenever any CRUD operations need to be performed, the client app dispatches the action to Vuex. Vuex takes the action and calls the appropriate API service to handle it, updating the state as necessary. The Api Service then sends the request to the server, passing server responses back to Vuex for storage in the data store.
+
+Server requests coming from the client app are intercepted by the corresponding REST API endpoint and funneled through authentication and role-based access control middleware. Once through the preceding middleware, the request is handled by the corresponding controller, which makes the appropriate calls to the database via a database driver called Mongoose. If the request needs to push or pull data from HubSpot, the controller invokes a HubSpot client instance and sends the appropriate requests to the HubSpot API. Likewise, if any requests involve uploading or downloading media, then the makes the necessary requests to the AWS (Amazon Web Services) API for pushing or pulling media from the app’s S3 Bucket.
+
+### Project Poster<a name="poster"></a>
+![Project Poster](assets/img/poster.png)
 
 ### Project Related Resources
 #### Problem Domain Book<a name="problem-domain-book"></a>
